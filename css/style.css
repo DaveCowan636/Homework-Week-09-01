@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+#site-header{
+  height:100%auto;
+  width:100%auto;
+  float:center;
+  background-color: #c3d4e5;
+  border-style:solid;
+  border-width: medium;
+  border-color: black;}
+
+#title{
+  float: center;
+  font-family:"press+Start+2p",cursive;
+  font-size: 32px
+  color: #dee1ab;}
+
+#logo{
+    padding: 10px;}
+
+#logo2{
+  padding: 10px;}
+
+#logo3{
+  padding: 10px;}
+
+#content{
+  width: 100%auto;
+  margin: 0;
+  overflow: auto;}
+
+  #menu1{
+    margin:0;
+    padding:10px;
+    float:center;
+    width:100%auto;
+    min-height:300px;
+    height:100%auto;
+    background-color:#fff093;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;}
+
+    #main{
+      margin:0;
+      padding:2px;
+      float:center;
+      width:80%auto;
+      min-height:30%;
+      height:60%;
+      background-color:#96a194;
+      font-family:"Gloria+Hallelujah",cursive;
+      font-size:24px
+      overflow:scroll;
+      border-style: solid;
+      border-width: medium;
+      border-color: black;}
+
+      .menu{
+        background-color: #eed90f;
+        border-style: solid;
+        border-width: medium;
+        border-color: black;}
+
+      .menuitem{
+        display:inline-table;
+        tex-align:left;
+        font-family:'Press+Start+2P',cursive;
+        color:1a13ee;}
+
+        .menuitem:hover,.dropdown:hover{color:black;background-color:#afbbf6;}
+
+        .dropdown{
+          display:inline-block;
+          width:10%'
+          min-width: 80px;}
+
+          .dropdown-content a {
+            color:black;}
+
+          .dropdown:hover .dropdown-content{
+            display-block;}
+
+          .dropdown-item{
+            display:block;
+            text-align:left;
+            font-family:'Press+Start+2P',cursive;
+            padding:0.5em;}
+
+.dropdown-item:hover, .dropdown-item:hover a{color:red;}
